@@ -1,10 +1,10 @@
 header {
-	background-color: #b7b7b7;
+	background-color: #00ff00;
 	margin-left: -8px; 
 	margin-right: -8px; 
 	margin-top: -22px;
 	font-size: 15px;
-	color: #ffffff;
+	color: #ff0000;
 }
 
 body h3{ 
@@ -16,11 +16,12 @@ body h3{
 	margin-right: -8px; 
 	border-bottom-style: solid; 
 	border-top-style: solid; 
-	border-color: black; 	
+	border-color: #ff0000; 	
 }
 
 body h4{
 	padding-left: 30px;
+	color: #ff0000;
 }
 
 body p{
