@@ -32,7 +32,6 @@ body h3{
 body h4{
 	font-size: 20px;
 	padding-left: 30px;
-	padding-bottom: -30px;
 	color: #af0505;
 }
 
@@ -66,13 +65,17 @@ footer {
 	left: 0;
 }
 
+footer h4 {
+	font-size: 18px;
+}
+
 footer div {
 	text-align: left;
 }
 
 footer div a img{
-	width: 35px;
-	height: 35px;
+	width: 27px;
+	height: 27px;
 	border-style: none;
 	padding: 4px;
 	margin: -10px;
