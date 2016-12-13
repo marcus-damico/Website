@@ -53,8 +53,8 @@ iframe {
 }
 
 div img{
-	width: 500px; 
-	height: 500px;
+	width: 600px; 
+	height: 600px;
 }
 
 footer {
@@ -63,10 +63,10 @@ footer {
 	border-color: #af0505;
 	margin-left: -8px; 
 	margin-right: -8px;
+	margin-bottom: -8px;
 	padding-bottom: 25px;
 	padding-top: -30px;
 	right: 0;
-	bottom: 0px;
 	left: 0;
 }
 
