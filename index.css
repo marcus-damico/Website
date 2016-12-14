@@ -1,6 +1,7 @@
 header {
-	background-color: #5faf65;
+	background-color: #7C9865;
 	padding-top: 1px;
+	padding-left: 4px;
 	margin-left: -8px; 
 	margin-right: -8px;
 	margin-top: -20px;
@@ -14,7 +15,7 @@ header h1 {
 }
 
 body {
-	background-color: #ffffff;
+	background-color: #f2f2f2;
 	height: 100%;
 }
 
@@ -27,7 +28,7 @@ body h3{
 	border-width: 4px; 
 	border-top-style: solid; 
 	border-bottom-style: solid; 
-	border-color: #af0505;
+	border-color: #9F3505;
 }
 
 body h4{
@@ -58,9 +59,9 @@ div img{
 }
 
 footer {
-	background-color: #5faf65;
+	background-color: #7C9865;
 	border-top: solid;
-	border-color: #af0505;
+	border-color: #9F3505;
 	margin-left: -8px; 
 	margin-right: -8px;
 	margin-bottom: -8px;
