@@ -81,7 +81,7 @@ footer div {
 	text-align: left;
 }
 
-footer div a img{
+.footerPicLinks{
 	width: 27px;
 	height: 27px;
 	border-style: none;
