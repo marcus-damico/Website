@@ -1,4 +1,4 @@
-header {
+header{
 	background-color: #7C9865;
 	padding-top: 1px;
 	padding-left: 4px;
@@ -6,12 +6,12 @@ header {
 	margin-right: -8px;
 	margin-top: -20px;
 	margin-bottom: -27px;
-	font-size: 20px;
-	color: #af0505;
 }
 
-header h1 {
+.headerText {
+	color: #af0505;
 	padding-bottom: 18px;
+	font-size: 40px;
 }
 
 body {
@@ -19,48 +19,54 @@ body {
 	height: 100%;
 }
 
-body h3{ 
+.subHeading{
 	padding-bottom: 15px; 
 	padding-top: 15px;
-	padding-left: 30px; 
+	padding-left: 38px; 
 	margin-left: -8px; 
 	margin-right: -8px;
 	border-width: 4px;
 	font-size: 18px;
+	font-weight: bold;
 	border-top-style: solid; 
 	border-bottom-style: solid; 
 	border-color: #9F3505;
 }
 
-body h4{
-	font-size: 22px;
+.aboutMeTitle{
+	font-size: 25px;
+	padding-top: 25px;
 	padding-left: 30px;
+	padding-bottom: 6px;
+	font-weight: bold;
 	color: #af0505;
 }
 
-body p{
+.aboutMeText{
+	font-size: 19px;
 	padding-left: 30px;
-	font-size: 18px;
+	margin-bottom: 40px;
 }
 
 body a{
 	padding-left: 30px;	
 }
 
-body div{
-	text-align: center;
-}
-
-iframe {
+.countdown {
 	padding-left: 30px;
 }
 
-div img{
+.xmasPicSec{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.xmasPic{
 	width: 450px; 
 	height: 450px;
 }
 
-footer {
+footer{
 	background-color: #7C9865;
 	border-top: solid;
 	border-color: #9F3505;
@@ -73,11 +79,14 @@ footer {
 	left: 0;
 }
 
-footer h4 {
+.footerText{
+	margin-left: 30px;
 	font-size: 18px;
+	color: #9F3505;
+	font-weight: bold;
 }
 
-footer div {
+.footerPicSec{
 	text-align: left;
 }
 
