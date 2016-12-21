@@ -1,5 +1,5 @@
 header{
-	background-color: #7C9865;
+	background-color: #b3b3b3;
 	padding-top: 1px;
 	padding-left: 4px;
 	margin-left: -8px; 
@@ -9,7 +9,7 @@ header{
 }
 
 .headerText {
-	color: #af0505;
+	color: #f2f2f2;
 	padding-bottom: 18px;
 	font-size: 40px;
 }
@@ -39,7 +39,6 @@ body {
 	padding-left: 30px;
 	padding-bottom: 6px;
 	font-weight: bold;
-	color: #af0505;
 }
 
 .aboutMeText{
@@ -62,8 +61,8 @@ body {
 	height: 500px;
 }
 
-footer{
-	background-color: #7C9865;
+.footer{
+	background-color: #737373;
 	border-top: solid;
 	border-color: #9F3505;
 	margin-left: -8px; 
@@ -78,11 +77,11 @@ footer{
 .footerText{
 	margin-left: 30px;
 	font-size: 18px;
-	color: #9F3505;
+	color: #f2f2f2;
 	font-weight: bold;
 }
 
-.footerPicSec{
+#footerPicSec{
 	text-align: left;
 	margin-left: 25px;
 }
@@ -93,4 +92,5 @@ footer{
 	border-style: none;
 	margin-top: -5px;
 	padding: 5px;
+	padding-right: 10px;
 }
