@@ -1,0 +1,67 @@
+.pl{
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+
+#tbox1{
+	border-style: solid;
+	width: 400px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 155px;
+	left: 20px;
+}
+#tbox2{
+	border-style: solid;
+	width: 400px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 225px;
+	left: 20px;
+}
+#tbox3{
+	border-style: solid;
+	width: 400px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 290px;
+	left: 20px;
+}
+#tbox4{
+	border-style: solid;
+	width: 400px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 355px;
+	left: 20px;
+}
+#tbox5{
+	border-style: solid;
+	width: 400px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 420px;
+	left: 20px;
+}
+#tbox6{
+	border-style: solid;
+	width: 400px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 485px;
+	left: 20px;
+}
+
+#rghtSdTbl{
+	vertical-align: top;
+}
+
+#p10Canvas{
+	border-style: solid;
+}
