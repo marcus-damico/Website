@@ -1,3 +1,44 @@
+header{
+	background-color: #b3b3b3;
+	padding-top: 1px;
+	padding-left: 4px;
+	margin-left: -8px; 
+	margin-right: -8px;
+	margin-top: -20px;
+	margin-bottom: -27px;
+}
+
+.headerText {
+	color: #f2f2f2;
+	padding-bottom: 18px;
+	font-size: 40px;
+}
+
+body{
+	background-color: #f2f2f2;
+	margin-bottom: 0px;
+}
+
+.subHeading{
+	padding-bottom: 15px; 
+	padding-top: 15px;
+	padding-left: 38px; 
+	margin-left: -8px; 
+	margin-right: -8px;
+	border-width: 4px;
+	font-size: 18px;
+	font-weight: bold;
+	border-top-style: solid; 
+	border-bottom-style: solid; 
+	border-color: #9F3505;
+}
+
+#tbl{
+	padding-top: 20px;
+	margin-top: 5px;
+	margin-bottom: -20px;
+}
+
 .pl{
 	font-size: 20px;
 	padding-bottom: 5px;
@@ -9,7 +50,7 @@
 	height: 45px;
 	font-size: 25px;
 	position: absolute;
-	top: 155px;
+	top: 275px;
 	left: 20px;
 }
 #tbox2{
@@ -18,7 +59,7 @@
 	height: 45px;
 	font-size: 25px;
 	position: absolute;
-	top: 225px;
+	top: 345px;
 	left: 20px;
 }
 #tbox3{
@@ -27,7 +68,7 @@
 	height: 45px;
 	font-size: 25px;
 	position: absolute;
-	top: 290px;
+	top: 410px;
 	left: 20px;
 }
 #tbox4{
@@ -36,7 +77,7 @@
 	height: 45px;
 	font-size: 25px;
 	position: absolute;
-	top: 355px;
+	top: 475px;
 	left: 20px;
 }
 #tbox5{
@@ -45,7 +86,7 @@
 	height: 45px;
 	font-size: 25px;
 	position: absolute;
-	top: 420px;
+	top: 540px;
 	left: 20px;
 }
 #tbox6{
@@ -54,7 +95,7 @@
 	height: 45px;
 	font-size: 25px;
 	position: absolute;
-	top: 485px;
+	top: 605px;
 	left: 20px;
 }
 
@@ -64,4 +105,38 @@
 
 #p10Canvas{
 	border-style: solid;
+}
+
+.footer{
+	background-color: #737373;
+	border-top: solid;
+	border-color: #9F3505;
+	margin-left: -8px; 
+	margin-right: -8px;
+	margin-bottom: -8px;
+	padding-bottom: 25px;
+	padding-top: -30px;
+	right: 0;
+	left: 0;
+}
+
+.footerText{
+	margin-left: 30px;
+	font-size: 18px;
+	color: #f2f2f2;
+	font-weight: bold;
+}
+
+#footerPicSec{
+	text-align: left;
+	margin-left: 25px;
+}
+
+.footerPicLinks{
+	width: 27px;
+	height: 27px;
+	border-style: none;
+	margin-top: -5px;
+	padding: 5px;
+	padding-right: 10px;
 }
