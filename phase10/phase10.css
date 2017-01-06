@@ -9,7 +9,7 @@ header{
 }
 
 .headerText {
-	color: #f2f2f2;
+	color: #262626;
 	padding-bottom: 18px;
 	font-size: 40px;
 }
@@ -133,6 +133,7 @@ a:link, a:visited {
 
 #rghtSdTbl{
 	color: #f2f2f2;
+	line-height: 47px;
 	vertical-align: top;
 }
 
