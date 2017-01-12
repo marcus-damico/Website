@@ -32,7 +32,7 @@ body{
 }
 
 #navBar{
-	width: 100%;
+	width: 40%;
 	margin-top: -5px;
 	margin-bottom: -5px;
 }
@@ -129,6 +129,150 @@ a:link, a:visited {
 	position: absolute;
 	top: 605px;
 	left: 20px;
+}
+
+#numBox1{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 275px;
+	left: 550px;
+	text-align: right;
+}
+#numBox2{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 345px;
+	left: 550px;
+	text-align: right;
+
+}
+#numBox3{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 410px;
+	left: 550px;
+	text-align: right;
+}
+#numBox4{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 475px;
+	left: 550px;
+	text-align: right;
+}
+#numBox5{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 540px;
+	left: 550px;
+	text-align: right;
+}
+#numBox6{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 605px;
+	left: 550px;
+	text-align: right;
+}
+#ttlBox1{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 275px;
+	left: 750px;
+	text-align: right;
+}
+#ttlBox2{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 345px;
+	left: 750px;
+	text-align: right;
+}
+#ttlBox3{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 410px;
+	left: 750px;
+	text-align: right;
+}
+#ttlBox4{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 475px;
+	left: 750px;
+	text-align: right;
+}
+#ttlBox5{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 540px;
+	left: 750px;
+	text-align: right;
+}
+#ttlBox6{
+	border-style: solid;
+	width: 100px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 605px;
+	left: 750px;
+	text-align: right;
+}
+
+#ntrBttn{
+	border-style: solid;
+	width: 150px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 670px;
+	left: 525px;
+	text-align: center;
+}
+
+#clrBttn{
+	border-style: solid;
+	width: 150px;
+	height: 45px;
+	font-size: 25px;
+	position: absolute;
+	top: 670px;
+	left: 725px;
+	text-align: center;
 }
 
 #rghtSdTbl{
