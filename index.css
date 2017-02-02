@@ -16,6 +16,7 @@ header{
 #headerPic {
 	width: 140px;
 	height: 80px;
+	padding-left: 15px;
 }
 
 body {

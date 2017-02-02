@@ -18,12 +18,12 @@ var ctx=c.getContext("2d");
 ctx.font="30px serif";
 ctx.fillText("Phase10 Application",250,50);
 
-// function addFunction(n1, n2, n3, n4, n5, n6, t1, t2, t3, t4, t5, t6){
-// 	t1 = n1 + t1;
-// 	t2 = n2 + t2;
-// 	t3 = n3 + t3;
-// 	t4 = n4 + t4;
-// 	t5 = n5 + t5;
-// 	t6 = n6 + t6;
-// 	return t1, t2, t3, t4, t5, t6;
-// }
+function addFunction(n1, n2, n3, n4, n5, n6, t1, t2, t3, t4, t5, t6){
+	t1 = n1 + t1;
+	t2 = n2 + t2;
+	t3 = n3 + t3;
+	t4 = n4 + t4;
+	t5 = n5 + t5;
+	t6 = n6 + t6;
+	return t1, t2, t3, t4, t5, t6;
+}
