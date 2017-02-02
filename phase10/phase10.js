@@ -29,4 +29,12 @@ function addFunction(n1, n2, n3, n4, n5, n6, t1, t2, t3, t4, t5, t6){
 	temp = parseInt(t6.value || 0);
 	temp += parseInt(n6);
 	t6.value = temp;
+
+	n1.value = 0;
+	n2.value = 0;
+	n3.value = 0;
+	n4.value = 0;
+	n5.value = 0;
+	n6.value = 0;
+
 }
