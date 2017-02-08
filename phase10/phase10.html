@@ -7,13 +7,15 @@
 	</head>
 
 	<header>
+		<!-- This is the header incase you couldn't tell -->
 		<h1 class="headerText">
-			Phase10 rules and app
+			Phase10 Apps and Rules
 		</h1>
 	</header>
 
 	<body>
 		<div class="subHeading">
+			<!-- This is my poorly developed navigation bar across the top -->
 			<table id="navBar">
 				<tr>
 					<td id="homeTab"> <a class="navBarLinks" href="../index.html">Home</a> </td>
@@ -31,6 +33,7 @@
 						<script type="text/javascript" src="phase10.js"></script>
 					</canvas><br>
 
+					<!-- These box will be for the players names -->
 					<input type="text" name="tbox1" id="tbox1"><br>
 					<input type="text" name="tbox2" id="tbox2"><br>
 					<input type="text" name="tbox3" id="tbox3"><br>
@@ -38,6 +41,8 @@
 					<input type="text" name="tbox5" id="tbox5"><br>
 					<input type="text" name="tbox6" id="tbox6"><br>
 
+					<!-- These boxes are for entering the score,
+					also calls the function handle when enter is pressed -->
 					<input type="number" name="numBox1" id="numBox1" onkeypress="handle(event, numBox1, numBox2, numBox3, numBox4, numBox5, numBox6, ttlBox1, ttlBox2, ttlBox3, ttlBox4, ttlBox5, ttlBox6)"><br>
 					<input type="number" name="numBox2" id="numBox2" onkeypress="handle(event, numBox1, numBox2, numBox3, numBox4, numBox5, numBox6, ttlBox1, ttlBox2, ttlBox3, ttlBox4, ttlBox5, ttlBox6)"><br>
 					<input type="number" name="numBox3" id="numBox3" onkeypress="handle(event, numBox1, numBox2, numBox3, numBox4, numBox5, numBox6, ttlBox1, ttlBox2, ttlBox3, ttlBox4, ttlBox5, ttlBox6)"><br>
@@ -45,21 +50,26 @@
 					<input type="number" name="numBox5" id="numBox5" onkeypress="handle(event, numBox1, numBox2, numBox3, numBox4, numBox5, numBox6, ttlBox1, ttlBox2, ttlBox3, ttlBox4, ttlBox5, ttlBox6)"><br>
 					<input type="number" name="numBox6" id="numBox6" onkeypress="handle(event, numBox1, numBox2, numBox3, numBox4, numBox5, numBox6, ttlBox1, ttlBox2, ttlBox3, ttlBox4, ttlBox5, ttlBox6)"><br>
 
-					<input type="number" name="ttlBox1" id="ttlBox1" ><br>
-					<input type="number" name="ttlBox2" id="ttlBox2" ><br>
-					<input type="number" name="ttlBox3" id="ttlBox3" ><br>
-					<input type="number" name="ttlBox4" id="ttlBox4" ><br>
-					<input type="number" name="ttlBox5" id="ttlBox5" ><br>
-					<input type="number" name="ttlBox6" id="ttlBox6" ><br>
+					<!-- These boxes will display the totaled score -->
+					<input type="number" name="ttlBox1" id="ttlBox1" readonly="readonly" ><br>
+					<input type="number" name="ttlBox2" id="ttlBox2" readonly="readonly"><br>
+					<input type="number" name="ttlBox3" id="ttlBox3" readonly="readonly"><br>
+					<input type="number" name="ttlBox4" id="ttlBox4" readonly="readonly"><br>
+					<input type="number" name="ttlBox5" id="ttlBox5" readonly="readonly"><br>
+					<input type="number" name="ttlBox6" id="ttlBox6" readonly="readonly"><br>
 
+					<!-- This button, when clicked, will run the function addFunction -->
 					<button type="button" name="ntrBttn" id="ntrBttn" onclick="addFunction(numBox1, numBox2, numBox3, numBox4, numBox5, numBox6, ttlBox1, ttlBox2, ttlBox3, ttlBox4, ttlBox5, ttlBox6)">
 						Enter
 					</button>
 
+					<!-- This button refreshes the game and subsequently restarts the game -->
 					<button type="button" name="clrBttn" id="clrBttn" onclick="window.location.reload()">
 						New Game
 					</button>
 				</td>
+
+				<!-- Right side of the table has the list of rules -->
 				<td id="rghtSdTbl">
 					<ul>
 						<li class="pl">Phase 1: 2 sets of 3</li>
@@ -79,6 +89,7 @@
 		</table><br>
 	<script src="phase10.js"></script></body>
 
+	<!-- This is my footer, that is shitty yes, but not the worst thing in the world -->
 	<footer class="footer">
 		<p>
 			<div class="footerText">
