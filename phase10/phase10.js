@@ -4,10 +4,10 @@ var ctx=c.getContext("2d");
 ctx.font="30px serif";
 ctx.fillText("Phase10 Application",250,50);
 
-//I want this to allow the enter button to trigger the addFunction
-
 var ntr = document.getElementById("ntrButton");
 
+// This function calculates the score when the enter button is pushed while 
+// the cursor is in the textboxes
 function handle(e, n1, n2, n3, n4, n5, n6, t1, t2, t3, t4, t5, t6){
 	var temp;
 
@@ -48,6 +48,7 @@ function handle(e, n1, n2, n3, n4, n5, n6, t1, t2, t3, t4, t5, t6){
 }
 
 //Calculates the numbers into a textbox and resets the input values
+//when the enter button is clicked
 function addFunction(n11, n21, n31, n41, n51, n61, t11, t21, t31, t41, t51, t61){
 
 	var temp;
