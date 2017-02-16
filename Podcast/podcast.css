@@ -5,12 +5,13 @@ header{
 	margin-left: -8px; 
 	margin-right: -8px;
 	margin-top: -20px;
-	margin-bottom: -22px;
+	margin-bottom: -27px;
 }
 
-.header {
-	color: #f2f2f2;
-	padding-bottom: 10px;
+.headerText {
+	color: #262626;
+	padding-bottom: 18px;
+	font-size: 40px;
 }
 
 #headerPic {
@@ -37,7 +38,7 @@ body {
 }
 
 #navBar{
-	width: 40%;
+	width: 30%;
 	margin-top: -5px;
 	margin-bottom: -5px;
 }
@@ -68,6 +69,27 @@ a:link, a:visited {
 	color:  #f2f2f2;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+.podcastSection{
+	margin-left: 6%;
+	margin-top: 20px;
+}
+
+.podcastTitle{
+	color: white;
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.podcastDescrip{
+	color: white;
+	font-size: 17px;
+	margin-top: -10px;
+}
+
+.podcastPlayer{
+	padding-top: 13px;
 }
 
 .footer{
