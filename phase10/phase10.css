@@ -255,7 +255,9 @@ a:link, a:visited {
 }
 
 #ntrBttn{
-	border-style: solid;
+	border: none;
+	background-color: #f7f7f7;
+	color: black;
 	width: 150px;
 	height: 45px;
 	font-size: 25px;
@@ -266,7 +268,9 @@ a:link, a:visited {
 }
 
 #clrBttn{
-	border-style: solid;
+	border: none;
+	background-color: #f7f7f7;
+	color: black;
 	width: 150px;
 	height: 45px;
 	font-size: 25px;
@@ -300,22 +304,25 @@ a:link, a:visited {
 	left: 0;
 }
 
-.footerSocialText{
-	margin-left: 30px;
-	font-size: 18px;
-	color: #f2f2f2;
-	font-weight: bold;
+#footerTable{
+	padding-top: 10px;
 }
 
-.footerHostInfo{
-	text-align: right;
+#footerHostInfo{
+	text-align: center;
+	padding-left: 20px;
 	color: #262626;
 	padding-right: 50px;
 }
 
 #footerPicSec{
-	text-align: left;
-	margin-left: 25px;
+	text-align: center;
+	width: 200px;
+	border-right: solid;
+}
+
+#footerRow1{
+	padding-left: 50%;
 }
 
 .footerPicLinks{
