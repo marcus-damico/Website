@@ -27,48 +27,34 @@ body {
 }
 
 .subHeading{
-	padding-bottom: 15px; 
-	padding-top: 15px;
-	padding-left: 38px; 
-	margin-left: -8px; 
+	margin-left: -8px;
 	margin-right: -8px;
-	border-width: 4px;
-	border-top-style: solid; 
-	border-bottom-style: solid; 
-	border-color: #262626;
 }
 
 #navBar{
-	width: 30%;
-	margin-top: -5px;
-	margin-bottom: -5px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #383838;
+
 }
 
-a:link, a:visited {
-	color: #2d2d2d;
+.navBar1{
+	float: left;
+	border-right: 1px solid;
+}
+
+.navBarLinks{
+	display: block;
+	text-align: center;
+	padding: 14px 25px;
 	text-decoration: none;
+	color: #ffffff;
 }
 
-#homeTab{
-	border-right: solid;
-	border-color: #262626;
-	font-size: 18px;
-	font-weight: bold;
-	padding-right: 10px;
-}
-
-#phase10Tab{
-	padding-left: 60px;
-	border-right: solid;
-	border-color: #262626;
-	font-size: 18px;
-	font-weight: bold;
-}
-
-#podcastTab{
-	padding-left: 60px;
-	font-size: 18px;
-	font-weight: bold;
+.navBarLinks:hover {
+	background-color: #af2b2b;
 }
 
 .podcastSection{
