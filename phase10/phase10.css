@@ -252,6 +252,10 @@ body{
 	text-align: center;
 }
 
+#ntrBttn:hover{
+	background-color: #af2b2b;
+}
+
 #clrBttn{
 	border: none;
 	background-color: #f7f7f7;
@@ -263,6 +267,10 @@ body{
 	top: 670px;
 	left: 725px;
 	text-align: center;
+}
+
+#clrBttn:hover{
+	background-color: #af2b2b;
 }
 
 #rghtSdTbl{
