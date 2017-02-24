@@ -105,6 +105,11 @@ body {
 	padding-right: 50px;
 }
 
+#ryanLink{
+	text-decoration: none;
+	color: #262626;
+}
+
 #footerPicSec{
 	text-align: center;
 	width: 200px;
