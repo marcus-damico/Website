@@ -1,3 +1,4 @@
+/*parts of the header*/
 header{
 	background-color: #737373;
 	padding-top: 1px;
@@ -19,7 +20,7 @@ header{
 	padding-left: 15px;
 	filter: invert(1);
 }
-
+/*body parts lol*/
 body {
 	background-color: #cccccc;
 	height: 100%;
@@ -30,7 +31,7 @@ body {
 	margin-left: -8px;
 	margin-right: -8px;
 }
-
+/*navigation bar parts*/
 #navBar{
 	list-style-type: none;
 	margin: 0;
@@ -57,6 +58,7 @@ body {
 	background-color: #af2b2b;
 }
 
+/*actual body of the website*/
 .aboutMeTitle{
 	color: #2d2d2d;
 	font-size: 25px;
@@ -73,10 +75,9 @@ body {
 	margin-bottom: 40px;
 }
 
+/*footer parts*/
 .footer{
 	background-color: #737373;
-	border-top: solid;
-	border-color: #262626;
 	margin-left: -8px; 
 	margin-right: -8px;
 	margin-bottom: -8px;
@@ -87,7 +88,7 @@ body {
 }
 
 #footerTable{
-	padding-top: 10px;
+	padding-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -122,6 +123,21 @@ body {
 	margin-top: -5px;
 	padding: 5px;
 	padding-right: 10px;
+}
+
+#footerRow2{
+	padding-top: 10px;
+	padding-left: 50%;
+}
+
+#footerCopyright{
+	padding-top: 18px;
+	padding-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#copyright{
+	font-size: 11px;
 }
 
 @media(max-width: 700px){

@@ -288,8 +288,6 @@ body{
 
 .footer{
 	background-color: #737373;
-	border-top: solid;
-	border-color: #262626;
 	margin-left: -8px; 
 	margin-right: -8px;
 	margin-bottom: -8px;
@@ -300,7 +298,7 @@ body{
 }
 
 #footerTable{
-	padding-top: 10px;
+	padding-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -335,6 +333,21 @@ body{
 	margin-top: -5px;
 	padding: 5px;
 	padding-right: 10px;
+}
+
+#footerRow2{
+	padding-top: 10px;
+	padding-left: 50%;
+}
+
+#footerCopyright{
+	padding-top: 18px;
+	padding-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#copyright{
+	font-size: 11px;
 }
 
 @media(max-width: 700px){
