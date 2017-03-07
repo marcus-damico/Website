@@ -60,7 +60,7 @@ body {
 
 /*actual body of the website*/
 .aboutMeTitle{
-	color: #2d2d2d;
+	color: #af2b2b;
 	font-size: 25px;
 	padding-top: 25px;
 	padding-left: 4%;
@@ -77,14 +77,12 @@ body {
 
 /*footer parts*/
 .footer{
-	background-color: #737373;
+	background-color: #383838;
 	margin-left: -8px; 
 	margin-right: -8px;
 	margin-bottom: -8px;
-	padding-bottom: 25px;
-	padding-top: -30px;
-	right: 0;
-	left: 0;
+	padding-bottom: 35px;	right: 0; left: 0;
+	padding-top: 30px;
 }
 
 #footerTable{
@@ -97,13 +95,13 @@ body {
 #footerHostInfo{
 	text-align: center;
 	padding-left: 20px;
-	color: #262626;
+	color: #ffffff;
 	padding-right: 50px;
 }
 
 #ryanLink{
 	text-decoration: none;
-	color: #262626;
+	color: #ffffff;
 }
 
 #footerPicSec{
@@ -135,6 +133,7 @@ body {
 	padding-right: 50px;
 	margin-left: auto;
 	margin-right: auto;
+	color: #ffffff;
 }
 #copyright{
 	font-size: 11px;
