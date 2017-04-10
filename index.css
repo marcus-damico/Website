@@ -109,6 +109,12 @@ body {
 	font-weight: bold;
 }
 
+#otherText{
+	color: #2d2d2d;
+	font-size: 18px;
+	font-weight: normal;
+}
+
 /*footer parts*/
 .footer{
 	background-color: #383838;
